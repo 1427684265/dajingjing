@@ -6,7 +6,7 @@
 let extraScore = 1;
 
 // 无敌模式：true 改为 false
-let wuDi = true;
+let wuDi = false;
 
 // 第一个水果：修改数字为 0-10, 0 为葡萄，9 为半个西瓜
 let firstFruit = 0;
@@ -38,7 +38,7 @@ let clickChangeFruit = true;
 let adLink = 'https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/yupi_wechat.png';
 
 // 修改网页标题：将 "合成大西瓜" 进行替换
-document.getElementsByTagName("title")[0].innerText = '合成大西瓜';
+document.getElementsByTagName("title")[0].innerText = '合成大晶晶';
 
 // 开启选分弹窗：将 false 改为 true
 let selectModal = false;
